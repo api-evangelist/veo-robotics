@@ -1,8 +1,24 @@
 aid: veo-robotics
-name: Veo Robotics *
-description: 'Veo Robotics * is a company surfaced as a portfolio company of gv, lux-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/veo-robotics.png
+name: Veo Robotics
+description: 'Veo Robotics built FreeMove, a 3D depth-sensing computer vision safety
+  system that lets standard industrial robots work safely alongside people by monitoring
+  workcells and dynamically restricting or resuming robot motion. Backed by GV and
+  Lux Capital, the company''s assets - including FreeMove and related intellectual
+  property - were acquired by Symbotic in July 2024, and veobot.com now redirects
+  to symbotic.com. Veo Robotics published no public API surface; this profile records
+  the company in the API Evangelist network graph.'
 url: https://raw.githubusercontent.com/api-evangelist/veo-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +27,20 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: symbotic
+x-acquired-date: '2024-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier Tech
+- Robotics
+- Industrial Automation
+- Machine Safety
+- Computer Vision
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/veo-robotics-domain-security.yml
+- type: LLMsTxt
+  url: llms/veo-robotics-llms.txt
 - type: Website
   url: https://veobot.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

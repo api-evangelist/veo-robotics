@@ -1,0 +1,16 @@
+# Veo Robotics
+
+> Veo Robotics built FreeMove, a 3D depth-sensing computer vision safety system that lets standard industrial robots work safely alongside people by monitoring workcells and dynamically restricting robot motion. The company's assets, including FreeMove and related IP, were acquired by Symbotic in July 2024. Veo Robotics published no public API surface; veobot.com now redirects to symbotic.com.
+
+## Company
+
+- [Website (redirects to Symbotic)](https://veobot.com)
+- [Symbotic acquisition announcement](https://www.symbotic.com/news/symbotic-acquires-veo-robotics-to-enhance-efficiency-and-safety-innovation/)
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/veo-robotics/refs/heads/main/apis.yml)
+
+## APIs
+
+No public APIs are known for this provider.
