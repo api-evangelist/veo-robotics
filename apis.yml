@@ -31,6 +31,9 @@ description: 'Veo Robotics built FreeMove, a 3D depth-sensing computer vision sa
   to symbotic.com. Veo Robotics published no public API surface; this profile records
   the company in the API Evangelist network graph.'
 url: https://raw.githubusercontent.com/api-evangelist/veo-robotics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Veo Robotics published no public API surface; this profile records the company in the API Evangelist network graph."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
