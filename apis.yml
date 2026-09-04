@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://veobot.com', status: 301, note: 'declared website redirects to https://www.symbotic.com/ — a different registrable domain (veobot.com -> symbotic.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/veo-robotics.png
 name: Veo Robotics
 description: 'Veo Robotics built FreeMove, a 3D depth-sensing computer vision safety
