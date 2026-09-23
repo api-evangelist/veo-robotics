@@ -2,17 +2,24 @@ generated: '2026-07-21'
 method: searched
 source: live HTTP probes of https://veobot.com
 host: https://veobot.com
-note: veobot.com 301-redirects every path (including /.well-known/*) to https://www.symbotic.com/
-  following Symbotic's July 2024 acquisition of Veo Robotics' assets. No well-known discovery
-  documents are published; no 200 responses were received, so no raw files were saved.
-documents:
-- path: /.well-known/security.txt
-  status: 301
-- path: /.well-known/openid-configuration
-  status: 301
-- path: /.well-known/oauth-authorization-server
-  status: 301
-- path: /.well-known/api-catalog
-  status: 301
-- path: /.well-known/ai-plugin.json
-  status: 301
+note: veobot.com 301-redirects every path (including /.well-known/*) to https://www.symbotic.com/ following
+  Symbotic's July 2024 acquisition of Veo Robotics' assets. No well-known discovery documents are published;
+  no 200 responses were received, so no raw files were saved.
+hosts:
+- host: https://veobot.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
